@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim-EFEthiye</title>
+    <link rel="stylesheet" href="iletisimstyle.css">
+    <link rel="stylesheet" href="stiller.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="hakkinda.html">EFEthiye</a>
+            </div>
+            <ul>
+                <li><a href="ozgecmis.html">Özgeçmiş</a></li> |
+                <li><a href="sehrim.html">Şehrim</a></li> |
+                <li><a href="mirasımız.html">Mirasımız</a></li> |
+                <li><a href="ilgialanlarim.html">İlgi Alanlarım</a></li> |
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </div>
+        <header>
+            <div class="header">
+                <h2>İletişime geçmek için aşağıdaki formu doldurunuz</h2>
+            </div>
+        </header>
+        <form id="form" action="" method="post" onsubmit="return epostaKontrolu()">
+                <table>
+                    <tr>
+                        <td><br></td>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td>Eposta adr.:</td> 
+                        <td><input type="text" name="eposta" id="email" onkeydown="epostaKontrolu()"><br></td>
+                        <td><span id="text1"></span></td>
+                     </tr>
+                    <tr>
+                        <td><br></td>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td>İleti:</td>
+                        <td><textarea name="konu" cols="30" rows="10" id="ileti"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                       <td><button type="submit" class="gonder-btn" name="gonder" value="Gönder">Gönder</button></td>  
+                       <td> <button type="reset" class="temizle-btn" name="temizle" value="Temizle">Temizle</button></td>
+                    </tr>
+                </table>
+        </form>
+        <script type="text/javascript">
+
+            function epostaKontrolu()
+            {
+                var form = document.getElementById("form");
+                var email = document.getElementById("email").value;
+                var text = document.getElementById("text1");
+                var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+                if(email.match(pattern))
+                {
+                    form.classList.add("valid");
+                    form.classList.remove("invalid");
+                    text.innerHTML = "E-posta adresi geçerli";
+                    text.style.color = "green";
+                }
+                else
+                {
+                    form.classList.remove("valid");
+                    form.classList.add("invalid");
+                    text.innerHTML = "*Geçerli e-posta adresi giriniz";
+                    text.style.color = "#ff0000";
+                }
+
+                if(email == "")
+                {
+                    form.classList.remove("valid");
+                    form.classList.remove("invalid");
+                    text.innerHTML = "*E-posta adresini boş bırakamazsınız";
+                    text.style.color = "#ff0000";
+                    return false;
+                }
+            }
+        </script>
+    <br><br><br>
+        <footer>
+            <div class="icon">
+                <ul class="social">
+                    <li><a href="mailto://mehmet48.48@icloud.com"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                    <li><a href="https://www.instagram.com/efeworks"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.snapchat.com/add/efegoktepe8"><i class="fa-brands fa-snapchat"></i></a></li>
+                 </ul>
+            </div>
+        </footer>
+</body>
+</html>
