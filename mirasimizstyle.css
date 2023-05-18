@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #aaadff;
+    background-position: center; 
+    background-size: 100% 100%; 
+    background-attachment: fixed; 
+    height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    height: 85px;
+    background-color: #080db3;
+}
+.logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 7px;
+    font-family: 'Libre Bodoni', cursive;
+    letter-spacing: 1px;
+    color: white;
+    border-style: inset;
+    border-radius: 30px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 6px 13px;
+    font-family: 'Lora', cursive;
+}
+.navbar ul li a:hover{
+    background: white;
+    color: #080db3;
+    border-radius: 15px;
+}
+
+.header h2{
+    text-align: center;
+    font-size: 45px;
+    color: black;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    background-color: #aaadff;
+}
+
+.kule {
+    width: 40%;
+    padding-left: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+.resim{
+    float: inline-end;
+}
+
+.resim img{
+    width: 100%;
+    height: 50%;
+}
+
+.kiz-kulesi{
+    margin-bottom: 10px;
+}
+
+.kiz-kulesi h3{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+
+.kiz-kulesi p{
+    font-size: 17px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.gobustan h3{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+
+.gobustan p{
+    font-size: 17px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.gobustan{
+    margin-bottom: 10px;
+}
+
+.gobustan h3{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+
+.gobustan p{
+    font-size: 17px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.gobustan-resim {
+    width: 40%;
+    padding-right: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.resim-gobustan{
+    float: inline-end;
+}
+
+.resim-gobustan img{
+    width: 100%;
+    height: 50%;
+}
+
+.saray {
+    width: 40%;
+    padding-left: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+.resim{
+    float: inline-end;
+}
+
+.resim img{
+    width: 100%;
+    height: 50%;
+}
+
+.sirvansahlar-sarayi{
+    margin-bottom: 10px;
+}
+
+.sirvansahlar-sarayi h3{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+
+.sirvansahlar-sarayi p{
+    font-size: 17px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.sirvan-saray h3{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+
+.sirvan-saray p{
+    font-size: 17px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.sirvan-saray{
+    margin-bottom: 10px;
+}
+
+.atesgah h3{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+
+.atesgah p{
+    font-size: 17px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.atesgah{
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #080db3;
+}
+
+.social
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.social a i{
+    color: white;
+}
+
+.social li
+{
+    margin: 0 10px;
+}
+
+.social a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.social a:hover i{
+    color: rgb(118, 116, 116);
+}
