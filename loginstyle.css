@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://lh3.googleusercontent.com/BDNajwXPgHA_txI50QkpF4ZfjdXgiytUHG1Yt0ELjsolRKDjtj2tN58c5Vbs70XoIvDZURSAwzFKBsli-DiMTefebc3E7m7zTito503UNjseY2YXjBI-TJCUpBpbHGXG-JDjEYIzBoEkWXlfPLS7xTsjIsUwCbWIkbRYl9IRGq1LxZwCOofGSlKqwPZys9ax19IdyPEKDXiBuKLM5HvamEYZ1QZS4hGpU3YH9eaq0-rVjSc5eEz62c8RSeFbdLvd9KYGRYk2Ye4KRZA2kEBCl8Rd9yCwnsSrKmq1IxZPE9okpIv9Psi6cYwPghH2miAWXiWGZGLJN3EQPdDXyNSIIpXZpwu_OpIo4eHw87ze20O6DxMy61swWNCyXgEC5X2dZt6b0TJJ41dM-rZMdlw4nd7_e0f4o4AFCvSGdK_mwSOjiD5bVXTwz710LuwpjWvX_0T28ZGu6P9Qt1S_5a9wJxyl7eGLdrs3k-uZcdB0-LX4leyLlyKktfBfpoVqhLA4JwrE_JhsbZ1ChyFyWQlLuZaPMhRmPmr5mTvWI6wzeAG-R9YyeWAwss3t69M_xo691RHXWuSJPokZzC9VT4sVLCzxzZ1VoNQ7-E6W4qWBYKqcJeuuipMHpS0YGLfvvCcdVgDqcjb6zCRgjc2e2BL0wp4RsHwjDF-xTHAsWwXjJcEaz6y6gPw2e8930nDaI6xbpJzEgf7xShKX97AYqr0Mg_hx_b51S9i9Qln_SupalBYm0oz8a3gcelQpo1Y=w1677-h943-no?authuser=0);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-box{
+    width: 23%;
+    height: 50%;
+    position: relative;
+    background: rgba(255, 255, 255, 0.842);
+    box-shadow: 0 0 20px 9px #6865641e;
+    border-radius: 35px;
+    margin: 130px auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.ilk-harf{
+    font-family:  'Ms Madi', cursive;
+    font-size: 40px;
+}
+
+h3{
+text-align: center;
+margin: 25px;
+letter-spacing: 2px;
+color: #080db3;
+font-family: 'Ms Madi', cursive;
+font-size: 30px;
+}
+
+.input-group{
+position: absolute;
+top: 180px;
+width: 75%;
+transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    margin: 20px 0;
+    background: transparent;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.705);
+    outline: none;
+}
+
+.submit-btn{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background: linear-gradient(to right, #1c1c2e, #087fce);
+    border-radius: 35px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px;
+    margin-top: 40px;
+
+    outline: none;
+    position: relative;
+}
+
+.input-group a{
+    display: inline-block;
+    text-decoration: none;
+    color: #777;
+    margin: 30px 10px 30px 0px;
+    font-size: 12px;
+}
+
+#form{
+    top: 100px;
+    left: 50px;
+}
