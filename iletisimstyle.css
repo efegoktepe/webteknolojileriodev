@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    
+    background-color: #aaadff;
+    background-position: center; 
+    background-size: 100% 100%; 
+    background-attachment: fixed; 
+    height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    height: 85px;
+    background-color: #080db3;
+}
+.logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 7px;
+    font-family: 'Libre Bodoni', cursive;
+    letter-spacing: 1px;
+    color: white;
+    border-style: inset;
+    border-radius: 30px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 6px 13px;
+    font-family: 'Lora', cursive;
+}
+.navbar ul li a:hover{
+    background: white;
+    color: #080db3;
+    border-radius: 15px;
+}
+
+.header h2{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+table{
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.gonder-btn{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background: linear-gradient(to right, #1c1c2e, #080db3);
+    border-radius: 35px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px;
+    margin-top: 40px;
+    outline: none;
+    position: relative;
+}
+
+.temizle-btn{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background: linear-gradient(to right, #1c1c2e, #080db3);
+    border-radius: 35px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px;
+    margin-top: 40px;
+    outline: none;
+    position: relative;
+}
+
+#text{
+    display: block;
+    color: #000;
+    font-weight: 500i;
+    font-style: italic;
+    padding: 5px;
+}
+
+footer{
+    background-color: #080db3;
+}
+
+.social
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.social a i{
+    color: white;
+}
+
+.social li
+{
+    margin: 0 10px;
+}
+
+.social a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.social a:hover i{
+    color: rgb(118, 116, 116);
+}
